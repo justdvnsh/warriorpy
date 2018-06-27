@@ -1,4 +1,4 @@
-from pythonwarrior.position import Position
+from warriorpyCore.position import Position
 
 
 class AbilityBase(object):
@@ -33,8 +33,4 @@ class AbilityBase(object):
     def pass_turn(self):
         return None
 
-    def verify_direction(self, direction):
-        if direction not in Position.RELATIVE_DIRECTIONS:
-            raise Exception("Unknown direction %s. "
-                            "Should be 'forward', 'backward', "
-                            "'left' or 'right'")
+    
