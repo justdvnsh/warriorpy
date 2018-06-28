@@ -1,4 +1,4 @@
-from pythonwarrior.config import Config
+import warriorpyCore.config.Config as Config
 import time
 
 
