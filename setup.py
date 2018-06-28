@@ -5,7 +5,7 @@ setup(
     name='warriorpy',
     version='0.0.1',
     packages=find_packages(),
-    package_data={'warriorpy': ['README']},
+    package_data={'warriorpy': ['src/warriorpyAbilities/README']},
     scripts=['bin/warriorpy'],
     author="Divyansh Dwivedi",
     author_email="justdvnsh2208@gmail.com",

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import os
 import sys
 
@@ -13,7 +11,7 @@ root_dir = os.path.normpath(
 )
 sys.path.insert(0, root_dir)
 
-from ..src.warriorCli.src.runner import Runner
+import warriorpy.warriorpyCli.src.runner as runner
 
 
 runner = runner.Runner(sys.argv, sys.stdin, sys.stdout)
