@@ -16,11 +16,11 @@ class Game(object):
         self._next_level = None
 
     def start(self):
-        UI.puts('Welcome to Python Warrior')
+        UI.puts('Welcome to WarriorPY')
         if os.path.exists(Config.path_prefix + '/.profile'):
             self._profile = Profile.load(Config.path_prefix + '/.profile')
         else:
-            if not os.path.exists(Config.path_prefix + '/pythonwarrior'):
+            if not os.path.exists(Config.path_prefix + '/warriorPY'):
                 self.make_game_directory()
 
         if self.profile().epic:
@@ -34,7 +34,7 @@ class Game(object):
     def make_game_directory(self):
         if UI.ask("No pythonwarrior directory found, \
                   would you like to create one?"):
-            os.mkdir(Config.path_prefix + '/warriorpy')
+            os.mkdir(Config.path_prefix + '/warriorPY')
         else:
             UI.puts('Unable to continue without directory.')
             raise Exception("Unable to continue without directory.")
@@ -65,7 +65,7 @@ class Game(object):
             if self.current_level().number == 0:
                 self.prepare_next_level()
                 UI.puts("First level has been generated."
-                        "See the pythonwarrior/%s/README for instructions."
+                        "See the warriorpy/%s/README for instructions."
                         % self.profile().directory_name())
             else:
                 self.play_current_level()
@@ -103,7 +103,7 @@ class Game(object):
             if self.next_level().exists():
                 if UI.ask('Would you like to continue on to the next level?'):
                     self.prepare_next_level()
-                    UI.puts('See the updated README in the pythonwarrior/' +
+                    UI.puts('See the updated README in the warriorPY/' +
                             self.profile().directory_name() +
                             ' directory')
                 else:
@@ -135,13 +135,13 @@ class Game(object):
         UI.puts('Another level has been added since you started epic, '
                 'going back to normal mode')
         UI.puts('See the updated README in the '
-                'pythonwarrior/%s directory' % self.profile().directory_name())
+                'warriorPY/%s directory' % self.profile().directory_name())
 
     def profiles(self):
         return map(lambda profile: Profile.load(profile), self.profile_paths())
 
     def profile_paths(self):
-        return glob.glob(Config.path_prefix + '/pythonwarrior/**/.profile')
+        return glob.glob(Config.path_prefix + '/warriorPY/**/.profile')
 
     def profile(self):
         if self._profile is None:

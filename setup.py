@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='warriorpy',
+    name='Warrior-pytho-3',
     version='0.0.1',
-    packages=find_packages(),
-    package_data={'warriorpy': ['src/warriorpyAbilities/README']},
-    scripts=['bin/warriorpy'],
+    packages=['warriorpy', 'warriorpy.towers.beginner', 'warriorpy.towers.intermediate','warriorpy.warriorpyAbilities.src', 'warriorpy.warriorpyCli.src', 'warriorpy.warriorpyCli.src.ui', 'warriorpy.warriorpyCli.templates' ,'warriorpy.warriorpyCore.src', 'warriorpy.warriorpyGeography.src', 'warriorpy.warriorpyUnits.src'],
+    packages_dir={'warriorpy': 'warriorpy'},
+    scripts=['bin/warriorpy.py'],
     author="Divyansh Dwivedi",
     author_email="justdvnsh2208@gmail.com",
     description=("An exciting game of programming and Artificial Intelligence"),

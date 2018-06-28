@@ -11,7 +11,7 @@ root_dir = os.path.normpath(
 )
 sys.path.insert(0, root_dir)
 
-import warriorpy.warriorpyCli.src.runner as runner
+import warriorpy.runner as runner
 
 
 runner = runner.Runner(sys.argv, sys.stdin, sys.stdout)
