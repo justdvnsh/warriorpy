@@ -1,6 +1,6 @@
-from verifyAbsoluteDirection import verifyAbsoluteDirection
-from absoluteDirections import ABSOLUTE_DIRECTIONS
-from relativeDirections import RELATIVE_DIRECTIONS
+from .verifyAbsoluteDirection import verifyAbsoluteDirection
+from .absoluteDirections import ABSOLUTE_DIRECTIONS
+from .relativeDirections import RELATIVE_DIRECTIONS
 
 # /**
 #  * Returns the relative direction for a given direction, with reference to a

@@ -3,8 +3,8 @@ import os
 import sys
 
 from .level_loader import LevelLoader
-import warriorpycli.src.player_generator.PlayerGenerator as PlayerGenerator
-import warriorpycli.src.ui.ui.UI as UI
+from warriorpy.warriorpyCli.src.player_generator import PlayerGenerator
+from warriorpy.warriorpyCli.src.ui.ui import UI
 
 
 class Level(object):

@@ -1,5 +1,5 @@
 from .base import AbilityBase
-import warriorpyUnits as units
+from warriorpy.warriorpyUnits import src as units
 
 
 class Rescue(AbilityBase):

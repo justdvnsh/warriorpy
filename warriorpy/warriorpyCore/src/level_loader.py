@@ -1,15 +1,15 @@
 from .floor import Floor
 
 # These are used dynamically via unit_to_constant
-import warriorpyUnits.src.archer.Archer as Archer
-import warriorpyUnits.src.captive.Captive as Captive
-import warriorpyUnits.src.golem.Golem as Golem
-import warriorpyUnits.src.sludge.Sludge as Sludge
-import warriorpyUnits.src.thick_sludge.ThickSludge as ThickSludge
-import warriorpyUnits.src.wizard.Wizard as Wizard
+from warriorpy.warriorpyUnits.src.archer import Archer
+from warriorpy.warriorpyUnits.src.captive import Captive
+from warriorpy.warriorpyUnits.src.golem import Golem
+from warriorpy.warriorpyUnits.src.sludge import Sludge
+from warriorpy.warriorpyUnits.src.thick_sludge import ThickSludge
+from warriorpy.warriorpyUnits.src.wizard import Wizard
 
-import warriorpyUnits.src.base.UnitBase as UnitBase
-import warriorpyUnits.src.warrior.Warrior as Warrior
+from warriorpy.warriorpyUnits.src.base import UnitBase
+from warriorpy.warriorpyUnits.src.warrior import Warrior
 
 
 class LevelLoader(object):

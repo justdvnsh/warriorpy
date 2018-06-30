@@ -1,5 +1,5 @@
-from verifyRelativeDirection import verifyRelativeDirection
-from relativeDirections import BACKWARD, FORWARD, RIGHT
+from .verifyRelativeDirection import verifyRelativeDirection
+from .relativeDirections import BACKWARD, FORWARD, RIGHT
 
 # /**
 #  * Rotates the given relative offset in the given direction.

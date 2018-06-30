@@ -1,10 +1,4 @@
-<!-- <div align="center">
-  <a href="https://warrior.js.org">
-    <img alt="WarriorJS Banner" title="WarriorJS" src="logo/warriorjs-banner-dark.png?raw=true">
-  </a>
-</div> -->
-
-<!-- <br /> -->
+# Warrior-PY
 
 <div align="center">
   <strong>An exciting game of programming and Artificial Intelligence</strong>
@@ -12,22 +6,6 @@
 
 <br />
 
-<!-- <div align="center">
-  <a href="https://circleci.com/gh/olistic/warriorjs">
-    <img alt="CircleCI" src="https://img.shields.io/circleci/project/github/olistic/warriorjs/master.svg?style=flat-square">
-  </a>
-  <a href="https://codecov.io/gh/olistic/warriorjs">
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/github/olistic/warriorjs.svg?style=flat-square">
-  </a>
-  <a href="https://twitter.com/warrior_js">
-    <img alt="Follow+WarriorJS+on+Twitter" src="https://img.shields.io/twitter/follow/warrior_js.svg?label=follow+warriorjs&style=flat-square">
-  </a>
-  <a href="https://spectrum.chat/warriorjs">
-    <img alt="Join+WarriorJS+on+Spectrum" src="https://img.shields.io/badge/join_the_community-on_spectrum-7b16ff.svg?style=flat-square">
-  </a>
-</div>
-
-<br /> -->
 
 In WarriorPY, you wear the skin of a warrior climbing a tall tower to reach _The
 Pythonic Sword_ at the top level. Legend has it that the sword bearer becomes
@@ -43,7 +21,7 @@ put your skills to the test. Will you dare?**
 1.  Install WarriorPY with [pip](https://pypi.org):
 
 ```sh
-pip install @warriorpy/cli
+pip install warriorPY
 ```
 
 2.  Launch the game:
@@ -69,17 +47,6 @@ Jump straight to some of the most-visited pages:
 - [Player API](https://warriorpy.github.io/docs/space-api)
 - [CLI Options](https://warriorpy.github.io/docs/cli-options)
 
-<!-- ## Preview
-
-![WarriorJS Preview](https://user-images.githubusercontent.com/5600126/40150855-8b2acdd2-5952-11e8-9034-00dcee0c4c2c.gif)
-
-> WarriorJS launched from the
-> [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
-> in [VS Code](https://code.visualstudio.com). To the left, `Player.js`, and to
-> the right, a
-> [Markdown Preview](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview)
-> of `README.md`. -->
-
 ## Contributing
 
 We welcome contributions to WarriorJS! These are the many ways you can help:
@@ -90,7 +57,6 @@ We welcome contributions to WarriorJS! These are the many ways you can help:
 - Improve the [documentation and website](https://warriorpy.github.io)
 - Report bugs
 - Follow us on [Twitter](https://twitter.com/warrior_py)
-<!-- - And [donate financially](https://opencollective.com/warriorpy)! -->
 
 Please read our [contribution guide](CONTRIBUTING.md) to get started. Also note
 that this project is released with a
@@ -101,23 +67,6 @@ and follow it.
 
 Thanks goes to each one of our contributors! :pray:
 [Become a contributor](CONTRIBUTING.md).
-
-<!-- <a href="https://github.com/olistic/warriorjs/graphs/contributors"><img src="https://opencollective.com/warriorjs/contributors.svg?width=890&button=false" /></a> -->
-
-<!-- ## Backers
-
-Support us with a monthly donation and help us continue our activities!
-[Become a backer](https://opencollective.com/warriorjs#backers).
-
-<a href="https://opencollective.com/warriorjs#backers"><img src="https://opencollective.com/warriorjs/backers.svg?width=890" /></a> -->
-
-<!-- ## Sponsors
-
-Become a sponsor and get your logo here and on the
-[official site](https://warrior.js.org)!
-[Become a sponsor](https://opencollective.com/warriorjs#sponsors).
-
-<a href="https://opencollective.com/warriorjs#sponsors"><img src="https://opencollective.com/warriorjs/sponsors.svg?width=890" /></a> -->
 
 ## Acknowledgments
 

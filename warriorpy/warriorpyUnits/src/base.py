@@ -1,23 +1,23 @@
 import re
 
-import warriorpyAbilities.src.attack.Attack as Attack
-import warriorpyAbilities.src.bind.Bind as Bind
-import warriorpyAbilities.src.detonate.Detonate as Detonate
-import warriorpyAbilities.src.direction_of.DirectionOf as DirectionOf
-import warriorpyAbilities.src.direction_of_stairs.DirectionOfStairs as DirectionOfStairs
-import warriorpyAbilities.src.distance_of.DistanceOf as DistanceOf
-import warriorpyAbilities.src.explode.Explode as Explode
-import warriorpyAbilities.src.feel.Feel as Feel
-import warriorpyAbilities.src.health.Health as Health
-import warriorpyAbilities.src.listen.Listen as Listen
-import warriorpyAbilities.src.look.Look as Look
-import warriorpyAbilities.src.pivot.Pivot as Pivot
-import warriorpyAbilities.src.rescue.Rescue as Rescue
-import warriorpyAbilities.src.rest.Rest as Rest
-import warriorpyAbilities.src.shoot.Shoot as Shoot
-import warriorpyAbilities.src.walk.Walk as Walk
-import warriorpyCore.src.turn.Turn as Turn
-import warriorpyCli.src.ui.ui.UI as UI
+from warriorpy.warriorpyAbilities.src.attack import Attack
+from warriorpy.warriorpyAbilities.src.bind import Bind
+from warriorpy.warriorpyAbilities.src.detonate import Detonate
+from warriorpy.warriorpyAbilities.src.direction_of import DirectionOf
+from warriorpy.warriorpyAbilities.src.direction_of_stairs import DirectionOfStairs
+from warriorpy.warriorpyAbilities.src.distance_of import DistanceOf
+from warriorpy.warriorpyAbilities.src.explode import Explode
+from warriorpy.warriorpyAbilities.src.feel import Feel
+from warriorpy.warriorpyAbilities.src.health import Health
+from warriorpy.warriorpyAbilities.src.listen import Listen
+from warriorpy.warriorpyAbilities.src.look import Look
+from warriorpy.warriorpyAbilities.src.pivot import Pivot
+from warriorpy.warriorpyAbilities.src.rescue import Rescue
+from warriorpy.warriorpyAbilities.src.rest import Rest
+from warriorpy.warriorpyAbilities.src.shoot import Shoot
+from warriorpy.warriorpyAbilities.src.walk import Walk
+from warriorpy.warriorpyCore.src.turn import Turn
+from warriorpy.warriorpyCli.src.ui.ui import UI
 
 
 class UnitBase(object):

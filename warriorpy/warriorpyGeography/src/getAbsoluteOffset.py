@@ -1,5 +1,5 @@
-from verifyAbsoluteDirection import verifyAbsoluteDirection
-from absoluteDirections import EAST, NORTH, SOUTH
+from .verifyAbsoluteDirection import verifyAbsoluteDirection
+from .absoluteDirections import EAST, NORTH, SOUTH
 
 # /**
 #  * Returns the absolute offset for a given relative offset with reference

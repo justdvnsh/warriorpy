@@ -1,4 +1,4 @@
-from absoluteDirections import ABSOLUTE_DIRECTIONS, NORTH, SOUTH, EAST, WEST
+from .absoluteDirections import ABSOLUTE_DIRECTIONS, NORTH, SOUTH, EAST, WEST
 
 # /**
 #  * Checks if the given direction is a valid absolute direction.

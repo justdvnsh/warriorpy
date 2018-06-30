@@ -1,5 +1,5 @@
 import math
-from warriorpyGeography.src.relativeDirections import BACKWARD, FORWARD
+from warriorpy.warriorpyGeography.src.relativeDirections import BACKWARD, FORWARD
 
 from .base import AbilityBase
 

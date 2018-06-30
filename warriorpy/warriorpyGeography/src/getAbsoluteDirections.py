@@ -1,7 +1,7 @@
-from absoluteDirections import ABSOLUTE_DIRECTIONS
-from relativeDirections import RELATIVE_DIRECTIONS
-from verifyAbsoluteDirection import verifyAbsoluteDirection
-from verifyRelativeDirection import verifyRelativeDirection
+from .absoluteDirections import ABSOLUTE_DIRECTIONS
+from .relativeDirections import RELATIVE_DIRECTIONS
+from .verifyAbsoluteDirection import verifyAbsoluteDirection
+from .verifyRelativeDirection import verifyRelativeDirection
 
 # /**
 #  * Returns the absolute direction for a given direction, with reference to

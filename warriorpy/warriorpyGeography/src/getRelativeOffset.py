@@ -1,5 +1,5 @@
-from verifyAbsoluteDirection import verifyAbsoluteDirection
-from absoluteDirections import EAST, NORTH, SOUTH
+from .verifyAbsoluteDirection import verifyAbsoluteDirection
+from .absoluteDirections import EAST, NORTH, SOUTH
 
 # /**
 #  * Returns the relative offset for a given location, with reference to another

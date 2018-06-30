@@ -1,4 +1,4 @@
-from absoluteDirections import EAST, WEST, SOUTH, NORTH
+from .absoluteDirections import EAST, WEST, SOUTH, NORTH
 
 # /**
 #  * Returns the direction of a location from another location (reference

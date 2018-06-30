@@ -1,5 +1,5 @@
-import warriorpyGeography.src.absoluteDirections.ABSOLUTE_DIRECTIONS as ABSOLUTE_DIRECTIONS
-import warriorpyGeography.src.relativeDirections.RELATIVE_DIRECTIONS as RELATIVE_DIRECTIONS
+from warriorpy.warriorpyGeography.src.absoluteDirections import ABSOLUTE_DIRECTIONS
+from warriorpy.warriorpyGeography.src.relativeDirections import RELATIVE_DIRECTIONS
 
 class Position(object):
     DIRECTIONS = ABSOLUTE_DIRECTIONS

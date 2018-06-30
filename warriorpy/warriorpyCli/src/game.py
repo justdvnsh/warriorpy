@@ -1,12 +1,12 @@
 import glob
 import os
 
-import warriorpyCore.config.Config as Config
-import warriorpyCore.level.Level as Level
-from player_generator import PlayerGenerator
-from profile import Profile
-import warriorpyCore.tower.Tower as Tower
-from ui.ui import UI
+from warriorpy.warriorpyCore.src.config import Config
+from warriorpy.warriorpyCore.src.level import Level
+from .player_generator import PlayerGenerator
+from .profile import Profile
+from warriorpy.warriorpyCore.src.tower import Tower
+from .ui.ui import UI
 
 
 class Game(object):
@@ -16,7 +16,7 @@ class Game(object):
         self._next_level = None
 
     def start(self):
-        UI.puts('Welcome to WarriorPY')
+        UI.puts('Welcome to warriorPY')
         if os.path.exists(Config.path_prefix + '/.profile'):
             self._profile = Profile.load(Config.path_prefix + '/.profile')
         else:
@@ -32,7 +32,7 @@ class Game(object):
             self.play_normal_mode()
 
     def make_game_directory(self):
-        if UI.ask("No pythonwarrior directory found, \
+        if UI.ask("No warriorPY directory found, \
                   would you like to create one?"):
             os.mkdir(Config.path_prefix + '/warriorPY')
         else:
@@ -65,7 +65,7 @@ class Game(object):
             if self.current_level().number == 0:
                 self.prepare_next_level()
                 UI.puts("First level has been generated."
-                        "See the warriorpy/%s/README for instructions."
+                        "See the warriorPY/%s/README for instructions."
                         % self.profile().directory_name())
             else:
                 self.play_current_level()
@@ -113,7 +113,7 @@ class Game(object):
             else:
                 if UI.ask('Would you like to continue on to epic mode?'):
                     self.prepare_epic_mode()
-                    UI.puts('Run pythonwarrior again to play epic mode.')
+                    UI.puts('Run warriorPY again to play epic mode.')
                 else:
                     UI.puts("Staying on current level. "
                             "Try to earn more points next time.")
@@ -150,7 +150,7 @@ class Game(object):
 
     def new_profile(self):
         profile = Profile()
-        profile.tower_path = UI.choose('tower', self.towers()).path
+        profile.tower_path = UI.choose('tower', [self.towers()]).path
         profile.warrior_name = UI.request('Enter a name for your warrior: ')
         return profile
 
@@ -182,7 +182,7 @@ class Game(object):
 
     def choose_profile(self):
         profile = UI.choose('profile',
-                            self.profiles() + [['new', 'New Profile']])
+                            [self.profiles(), 'new', 'New Profile'])
         if profile == 'new':
             profile = self.new_profile()
             if filter(lambda prof: prof.player_path == profile.player_path,

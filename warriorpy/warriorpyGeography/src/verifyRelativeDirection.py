@@ -1,4 +1,4 @@
-from relativeDirections import RELATIVE_DIRECTIONS
+from .relativeDirections import RELATIVE_DIRECTIONS
 
 # /**
 #  * Checks if the given direction is a valid relative direction.

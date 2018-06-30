@@ -1,6 +1,6 @@
-import warriorpyCore.src.position.Position as Position
-import warriorpyGeography.src.getAbsoluteOffset.getAbsoluteOffset as getAbsoluteOffset
-import warriorpyGeography.src.verifyAbsoluteDirection.verifyAbsoluteDirection as verifyAbsoluteDirection
+from warriorpy.warriorpyCore.src.position import Position
+from warriorpy.warriorpyGeography.src.getAbsoluteOffset import getAbsoluteOffset
+from warriorpy.warriorpyGeography.src.verifyAbsoluteDirection import verifyAbsoluteDirection
 
 class AbilityBase(object):
     def __init__(self, unit):

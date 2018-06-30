@@ -3,9 +3,9 @@ import os
 import pickle
 import re
 
-import warriorpyCore.src.config.Config as Config
-import warriorpyCore.src.level.Level as Level
-import warriorpyCore.src.tower.Tower as Tower
+from warriorpy.warriorpyCore.src.config import Config
+from warriorpy.warriorpyCore.src.level import Level
+from warriorpy.warriorpyCore.src.tower import Tower
 
 
 class Profile(object):

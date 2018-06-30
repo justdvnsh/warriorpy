@@ -1,7 +1,7 @@
 import argparse
 
-import warriorpyCore.src.config.Config as Config
-import warriorpyCli.src.game.Game as Game
+from warriorpy.warriorpyCore.src.config import Config
+from warriorpy.warriorpyCli.src.game import Game
 
 
 class Runner(object):

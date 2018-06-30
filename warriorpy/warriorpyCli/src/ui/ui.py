@@ -1,4 +1,4 @@
-import warriorpyCore.config.Config as Config
+from warriorpy.warriorpyCore.src.config import Config
 import time
 
 
